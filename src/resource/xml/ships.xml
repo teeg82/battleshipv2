@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+	<ships>
+		<ship name="Battleship" size="4" count="1"/>
+		<ship name="Cruiser" size="3" count="2"/>
+		<ship name="Destroyer" size="2" count="3"/>
+		<ship name="Frigate" size="1" count="4"/>
+	</ships>
+
+	<abstractTiles>
+		<tile name="EmptyTile" idValue="1"/>
+		<tile name="DynamicBlockedTile" idValue="2"/>
+		<tile name="StaticBlockedTile" idValue="2"/>
+		<tile name="DynamicShipTile" idValue="3"/>
+		<tile name="StaticShipTile" idValue="3"/>
+	</abstractTiles>
+
+	<abstractTileTypes>
+		<tileType name="InnerShipTileType" idValue="4"/>
+		<tileType name="NorthShipTileType" idValue="5"/>
+		<tileType name="EastShipTileType" idValue="6"/>
+		<tileType name="SouthShipTileType" idValue="7"/>
+		<tileType name="WestShipTileType" idValue="8"/>
+		<tileType name="FrigateShipTileType" idValue="9"/>
+	</abstractTileTypes>
+</resources>

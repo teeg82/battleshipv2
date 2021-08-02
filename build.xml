@@ -1,0 +1,12 @@
+<project default="compile">
+    <target name="compile">
+        <mkdir dir="/battleship/bin"/>
+        <javac
+            srcdir="/battleship/src"
+            destdir="/battleship/bin"
+            excludes="/battleship/src/test/*"
+            includesfile="/battleship/src/test/gameTest/GameTest.java"
+            verbose="yes"
+            />
+    </target>
+</project>
